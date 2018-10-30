@@ -1,6 +1,6 @@
 FROM node:8
 
-RUN apt-get install git wget brotli -y
+RUN apt-get install git wget -y
 
 RUN npm install -g @sentry/cli --unsafe-perm
 
